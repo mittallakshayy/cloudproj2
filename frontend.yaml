@@ -1,0 +1,10 @@
+runtime: nodejs16
+
+instance_class: F4
+
+env_variables:
+  REACT_APP_API_URI: "https://proj2-backend-dot-rapid-hangar-291514.uc.r.appspot.com"
+
+automatic_scaling:
+  min_instances: 0
+  max_instances: 1
